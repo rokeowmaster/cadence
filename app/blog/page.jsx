@@ -1,15 +1,16 @@
 import React from 'react'
 import { Nav } from '@/components'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Blog = () => {
     const blogPosts = [
-        { image: "/blog1.jpg", title: "Mastering the Art of Auditions", description: "Learn how to nail your auditions with these expert tips." },
-        { image: "/blog2.webp", title: "Building a Strong Acting Portfolio", description: "Discover how to showcase your best work and attract directors." },
-        { image: "/blog3.jpg", title: "Breaking into the Film Industry", description: "Steps to transition from theatre to the big screen." },
-        { image: "/blog4.webp", title: "Method Acting vs Classical Acting", description: "A deep dive into different acting techniques and their benefits." },
-        { image: "/blog5.jpg", title: "How to Find the Right Acting Agent", description: "Key strategies for securing representation that fits your career goals." },
-        { image: "/blog6.jpeg", title: "Improvisation Skills for Actors", description: "Enhance your spontaneity and creativity in acting with these exercises." }
+        { id:1, image: "/blog1.jpg", title: "Mastering the Art of Auditions", description: "Learn how to nail your auditions with these expert tips." },
+        { id:2, image: "/blog2.webp", title: "Building a Strong Acting Portfolio", description: "Discover how to showcase your best work and attract directors." },
+        { id:3, image: "/blog3.jpg", title: "Breaking into the Film Industry", description: "Steps to transition from theatre to the big screen." },
+        { id:4, image: "/blog4.webp", title: "Method Acting vs Classical Acting", description: "A deep dive into different acting techniques and their benefits." },
+        { id:5, image: "/blog5.jpg", title: "How to Find the Right Acting Agent", description: "Key strategies for securing representation that fits your career goals." },
+        { id:6, image: "/blog6.jpeg", title: "Improvisation Skills for Actors", description: "Enhance your spontaneity and creativity in acting with these exercises." }
       ];
   return (
     <div>
@@ -30,9 +31,11 @@ const Blog = () => {
               />
               <h3 className="text-2xl font-semibold mt-4">{post.title}</h3>
               <p className="text-gray-600 mt-2">{post.description}</p>
+              <Link href={`/blog/${post.id}`}>
               <button className="mt-4 bg-yellow-400 text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition-all">
                 Read More
               </button>
+              </Link>
             </div>
           ))}
         </div>
