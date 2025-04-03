@@ -32,25 +32,19 @@ const About = () => {
         <h2 className="text-3xl sm:text-4xl font-bold mb-6">Meet the Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-gray-700 p-4 rounded-xl shadow-lg text-center">
-            <img src="/actor1.webp" alt="Actor 1" className="rounded-full w-32 h-32 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold">John Doe</h3>
-            <p className="text-gray-400">Lead Actor & Director</p>
-            <p className="text-gray-500 mt-2">A visionary director with a passion for storytelling. John brings a wealth of experience and creativity to every project.</p>
-          </div>
+            <img src="/founder.jpg" alt="Actor 1" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <h3 className="text-xl font-semibold">Kenny Rodgers</h3>
+            <p className="text-gray-400">Founder & Director</p></div>
 
           <div className="bg-gray-700 p-4 rounded-xl shadow-lg text-center">
-            <img src="/actor2.jpg" alt="Actor 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold">Jane Smith</h3>
-            <p className="text-gray-400">Supporting Actress</p>
-            <p className="text-gray-500 mt-2">Jane brings depth and emotion to every character she plays. A true professional, she captivates audiences with her raw talent.</p>
-          </div>
+            <img src="/project-organizer.jpg" alt="Actor 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <h3 className="text-xl font-semibold">Shanice Oduk</h3>
+            <p className="text-gray-400">Production Designer and Marketer</p></div>
 
           <div className="bg-gray-700 p-4 rounded-xl shadow-lg text-center">
-            <img src="/actor3.jpg" alt="Actor 3" className="rounded-full w-32 h-32 mx-auto mb-4" />
-            <h3 className="text-xl font-semibold">Michael Johnson</h3>
-            <p className="text-gray-400">Voice Actor</p>
-            <p className="text-gray-500 mt-2">A master of voice and animation, Michael brings characters to life with his distinctive and versatile vocal range.</p>
-          </div>
+            <img src="/production-manager.jpg" alt="Actor 2" className="rounded-full w-32 h-32 mx-auto mb-4" />
+            <h3 className="text-xl font-semibold">Shawn Alex</h3>
+            <p className="text-gray-400">Production Manager</p></div>
         </div>
 
         <div className="mt-16">

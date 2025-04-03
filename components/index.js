@@ -6,10 +6,12 @@ import JobBanner from "./JobBanner";
 import JoinForm from "./JoinForm";
 import Projects from "./Projects";
 import Testimonial from "./Testimonial";
+import NewsComponent from "./NewsComponent";
 
 export {
   Nav,
   Footer,
+  NewsComponent,
   Hero,
   Careers,
   JobBanner,

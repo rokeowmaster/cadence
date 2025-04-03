@@ -11,7 +11,7 @@ const navItems = [
   { name: "Contact", href: "/contacts" },
 ];
 
-const NavBar = () => {
+const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ const NavBar = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" legacyBehavior>
           <a className="text-white text-2xl font-bold cursor-pointer">
-            Cadence<span className="text-yellow-400">Productions</span>
+            Cadence<span className="text-yellow-400">Production</span>
           </a>
         </Link>
         <div className="hidden md:flex space-x-6">
@@ -31,6 +31,14 @@ const NavBar = () => {
             </Link>
           ))}
         </div>
+        {/* Support Us Button */}
+        <button
+          onClick={() => alert("Thank you for your support!")} // Placeholder action for button
+          className="bg-yellow-400 text-black px-6 py-2 rounded-full text-lg font-semibold hover:bg-yellow-500 transition-all"
+        >
+          Support Us
+        </button>
+
         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white">
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
@@ -39,7 +47,7 @@ const NavBar = () => {
         <div className="md:hidden bg-black bg-opacity-90 p-4 space-y-4 text-center transition-all duration-300">
           {navItems.map((item) => (
             <Link key={item.name} href={item.href} legacyBehavior>
-              <a 
+              <a
                 className="block text-white text-lg hover:text-yellow-400 transition-all"
                 onClick={() => setIsOpen(false)}
               >
@@ -51,6 +59,6 @@ const NavBar = () => {
       )}
     </nav>
   );
-}
+};
 
-export default NavBar;
+export default Nav;
