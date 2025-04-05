@@ -28,7 +28,7 @@ const ContactUs = () => {
         <div className="space-y-4">
           <div className="flex items-center space-x-3">
             <Mail className="text-white" size={24} />
-            <span className="text-lg">contact@cadence.com</span>
+            <span className="text-lg">productioncadence@gmail.com</span>
           </div>
           <div className="flex items-center space-x-3">
             <Phone className="text-white" size={24} />
