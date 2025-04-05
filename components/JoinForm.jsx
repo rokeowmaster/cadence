@@ -7,7 +7,7 @@ const JoinForm = () => {
         const formData = new FormData(event.target);
         const message = `New Actor Registration:\n\nName: ${formData.get("name")}\nEmail: ${formData.get("email")}\nPhone: ${formData.get("phone")}\nExperience: ${formData.get("experience")}\nPortfolio: ${formData.get("portfolio")}`;
         const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/0793551031?text=${encodedMessage}`, "_blank");
+        window.open(`https://wa.me/254793551031?text=${encodedMessage}`, "_blank");
         };
 
   return (
