@@ -16,7 +16,7 @@ const NewsCard = ({ news }) => {
       </div>
       <div className="p-8"> {/* Increased padding */}
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{news.title}</h3>
-        <p className="text-sm text-gray-500 mb-4">{news.date}</p>
+        {/* <p className="text-sm text-gray-500 mb-4">{news.date}</p> */}
         {/* <p className="text-gray-600 mb-4">{news.description}</p> */}
       </div>
     </div>
