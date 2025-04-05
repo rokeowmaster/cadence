@@ -5,10 +5,10 @@ import React from 'react'
 import { Nav } from '@/components';
 
 const portfolioItems = [
-    { image: "/portfolio1.png", title: "Shakespearean Drama", description: "A breathtaking performance of Macbeth at the Grand Theatre." },
+    // { image: "/portfolio1.png", title: "Shakespearean Drama", description: "A breathtaking performance of Macbeth at the Grand Theatre." },
     { image: "/portfolio2.jpg", title: "Feature Film Role", description: "Lead role in an award-winning independent film." },
     { image: "/portfolio3.jpg", title: "TV Series Appearance", description: "Recurring character in a popular TV series." },
-    { image: "/portfolio4.png", title: "Commercial Advertisement", description: "Starred in a high-profile national commercial." },
+    // { image: "/portfolio4.png", title: "Commercial Advertisement", description: "Starred in a high-profile national commercial." },
     { image: "/portfolio5.jpg", title: "Stage Performance", description: "A captivating live theatre performance in a classic production." },
     { image: "/portfolio6.webp", title: "Short Film Project", description: "Lead role in a critically acclaimed short film." }
   ];

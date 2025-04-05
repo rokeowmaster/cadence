@@ -8,8 +8,8 @@ const Foooter = () => {
       <footer className="bg-black text-white py-10 px-6 text-center">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-3xl font-bold text-yellow-400">Cadence Productions</h2>
-            <p className="text-gray-400 mt-2">Where Dreams Take the Stage</p>
+            <h2 className="text-3xl font-bold text-yellow-400">Cadence Production</h2>
+            <p className="text-gray-400 mt-2">Legacy of Talents</p>
           </div>
           <div className="flex space-x-6 text-gray-400">
             <Link href="/about" legacyBehavior><a className="hover:text-yellow-400">About</a></Link>

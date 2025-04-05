@@ -6,7 +6,7 @@ import React from 'react'
 import { useState } from 'react';
 
 const careerItems = [
-    { title: "Lead Actor", description: "Seeking experienced lead actors for upcoming productions.", image: "/career1.jpg" },
+    // { title: "Lead Actor", description: "Seeking experienced lead actors for upcoming productions.", image: "/career1.jpg" },
     { title: "Supporting Role", description: "Exciting opportunities for supporting roles in major films.", image: "/career2.jpg" },
     { title: "Voice Acting", description: "Talented voice actors needed for animated projects.", image: "/career3.jpg" },
   ];

@@ -21,7 +21,7 @@ const newsData = [
     image: '/best-upcoming.jpg',
   },
   {
-    title: 'Best upcoming actress',
+    title: 'Best supporting actress',
     // description: 'Experts weigh in on what to expect in the acting world for 2025. Will digital performances become the norm?',
     date: 'April 3, 2025',
     image: '/best-upcoming-1.jpg',

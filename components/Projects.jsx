@@ -2,9 +2,9 @@ import Image from 'next/image'
 import React from 'react'
 
 const projectItems = [
-    { title: "Theater Showcase", description: "A captivating stage performance featuring talented actors.", image: "/project1.png" },
+    { title: "Theater Showcase", description: "A captivating stage performance featuring talented actors.", image: "/project1.jpg" },
     { title: "Short Film", description: "An award-winning short film highlighting stellar acting skills.", image: "/project2.jpg" },
-    { title: "Commercial Ad", description: "A high-profile commercial starring rising actors.", image: "/project3.jpg" },
+    { title: "Theatre Rehearsals", description: "A high-profile commercial starring rising actors.", image: "/project4.jpg" },
   ];
 
 const Projects = () => {
