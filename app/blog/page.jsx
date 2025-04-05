@@ -12,6 +12,7 @@ const Blog = () => {
         { id:5, image: "/blog5.jpg", title: "How to Find the Right Acting Agent", description: "Key strategies for securing representation that fits your career goals." },
         { id:6, image: "/blog6.jpeg", title: "Improvisation Skills for Actors", description: "Enhance your spontaneity and creativity in acting with these exercises." }
       ];
+      
   return (
     <div>
         <Nav />
@@ -31,11 +32,11 @@ const Blog = () => {
               />
               <h3 className="text-2xl font-semibold mt-4">{post.title}</h3>
               <p className="text-gray-600 mt-2">{post.description}</p>
-              <Link href={`/blog/${post.id}`}>
+              {/* <Link href={`/blog/${post.id}`}>
               <button className="mt-4 bg-yellow-400 text-black px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500 transition-all">
                 Read More
               </button>
-              </Link>
+              </Link> */}
             </div>
           ))}
         </div>
