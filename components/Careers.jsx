@@ -60,7 +60,7 @@ const Careers = () => {
             <div className="w-full h-[300px]">
               <iframe
                 className="rounded-xl shadow-lg w-full h-full"
-                src="https://www.youtube.com/embed/N2AGVjaiQSo"
+                src="https://www.youtube.com/embed/tz2tpkeoEek"
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
